@@ -1,0 +1,15 @@
+*.o
+*.out
+*.txt
+*.tsv
+*.a
+*~
+*.cproject
+*.project
+*.sam
+*.fa
+*.fasta
+*.bam
+*.swp
+lib/*
+include/*
