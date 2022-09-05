@@ -8,9 +8,11 @@
 #ifndef VECTOR_FILTER_H_
 #define VECTOR_FILTER_H_
 
-#ifndef __aligned__
-#define __aligned__ __attribute__((aligned(16)))
+
+#ifndef aligned_a
+#define aligned_a __attribute__((aligned(16)))
 #endif
+
 
 #include <stdint.h>
 #include <nmmintrin.h>
