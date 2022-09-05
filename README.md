@@ -18,7 +18,7 @@ Compile GASAL2 with the following commands in gasal2 directory:
 E.g. for NVIDIA RTX2070 sm_75; tested with cuda-11.4, if a specific cuda version should be employed, use e.g. `/usr/local/cuda-11.4`. Different cuda versions can be installed from the nividia cuda ubuntu developer repo.
 
 ```
-cd gase-gasal/gasal2
+cd gase-gasal2/gasal2
 ./configure.sh /usr/local/cuda
 make GPU_SM_ARCH=sm_75 MAX_SEQ_LEN=300 N_CODE=4 N_PENALTY=1
 ```
